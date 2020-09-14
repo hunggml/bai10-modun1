@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    td {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        text-align: center;
+    }
+    #screen{
+        text-align: left;
+    }
+
+
+</style>
+<table border="1px" cellspacing="0" id="calculator" style="width: 300px">
+    <tr>
+        <td colspan="4" id="screen"></td>
+    </tr>
+    <tr>
+        <td onclick="clickk(1)">1</td>
+        <td onclick="clickk(2)">2</td>
+        <td onclick="clickk(3)">3</td>
+        <td onclick="clickk('+')">+</td>
+    </tr>
+    <tr>
+        <td onclick="clickk(4)">4</td>
+        <td onclick="clickk(5)">5</td>
+        <td onclick="clickk(6)">6</td>
+        <td onclick="clickk('-')">-</td>
+    </tr>
+    <tr>
+        <td onclick="clickk(7)">7</td>
+        <td onclick="clickk(8)">8</td>
+        <td onclick="clickk(9)">9</td>
+        <td onclick="clickk('*')">*</td>
+    </tr>
+    <tr>
+        <td onclick="reset()">C</td>
+        <td onclick="clickk(0)">0</td>
+        <td onclick="cal()">=</td>
+        <td onclick="clickk('/')">/</td>
+    </tr>
+
+</table>
+<script>
+   let screen = document.getElementById('screen')
+   function clickk(value) {
+       screen.innerHTML += value
+   }
+   function cal() {
+       let str = screen.innerHTML;
+       let ketqua = eval(str);
+       screen.innerHTML = ketqua;
+   }
+   function reset() {
+       screen.innerHTML=''
+
+   }
+</script>
+
+</body>
+</html>
