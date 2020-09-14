@@ -11,27 +11,20 @@
         height: auto;
     }
 </style>
-<img id="img1" src="image/meo1.jpg" alt="1" onclick="imagee(1)">
+<img id="img1" src="image/meo1.jpg"  onclick="imagee(1)">
 <script>
     function imagee(number) {
         let img= document.getElementById('img'+number)
-        let index = +img.alt
-        if (index<4){
+        let index = img.alt
+        if (index<7){
             index++
         } else {
             index = 1
         }
         img.alt = index;
         img.src = "image/meo"+index+".jpg";
-        check();
     }
-    function check() {
-        let img1= document.getElementById('img1')
-        let img2 = document.getElementById('img2')
-        let img3 = document.getElementById('img3')
-        let img4 = document.getElementById('img4')
 
-    }
 </script>
 </body>
 

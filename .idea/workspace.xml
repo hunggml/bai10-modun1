@@ -20,16 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33d18df0-ba66-49bd-ba32-85f63bbea6ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Game-Puzz/image/meo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game-Puzz/image/meo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game-Puzz/image/meo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game-Puzz/image/meo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game-Puzz/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cemo/anh/anh1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cemo/anh/anh2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cemo/anh/anh3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cemo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoYouLoveMe/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoYouLoveMe/tom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game-Puzz/image/meo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game-Puzz/image/meo6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game-Puzz/image/meo7.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game-Puzz/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Game-Puzz/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/days-in-month/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/days-in-month/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +66,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cemo/anh" />
+      <recent name="$PROJECT_DIR$/DoYouLoveMe" />
       <recent name="$PROJECT_DIR$/Game-Puzz/image" />
+      <recent name="$PROJECT_DIR$/cemo/anh" />
       <recent name="$PROJECT_DIR$/click-mouse" />
       <recent name="$PROJECT_DIR$/image" />
     </key>
@@ -83,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599896938940</updated>
       <workItem from="1599896939954" duration="4017000" />
-      <workItem from="1600047750948" duration="10157000" />
+      <workItem from="1600047750948" duration="14826000" />
     </task>
     <servers />
   </component>
