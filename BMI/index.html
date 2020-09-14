@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<p id="BMI">BMI = </p>-->
+<!--<button type="button" onclick="clickk()">Do chi so-->
+<script>
+    a = +prompt('Nhap can nang(kg)')
+    b = +prompt('Nhap chieu cao(cm)')
+    let sum = a/(b*b)
+   if (sum<18.5){
+       alert('Underweight')
+   } else  if (18.5<sum<25.0) {
+       alert('Normal')
+   } else  if(25.0<sum<30.0){
+       alert('Overweight')
+   } else {
+       alert('Obese')
+   }
+</script>
+</button>
+</body>
+</html>
